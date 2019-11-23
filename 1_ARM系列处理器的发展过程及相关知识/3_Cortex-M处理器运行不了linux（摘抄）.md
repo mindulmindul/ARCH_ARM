@@ -8,7 +8,7 @@
 在ARMv7版本中，内核架构首次从单一款式变成3种款式。Cortex-M系列属于ARMv7结构下的一个款式:款式M。款式M包含的处理器有Cortex-M0、Cortex-M1、Cortex-M3、Cortex-M4以及Cortex-M7，以上处理器常被用于低成本、低功耗、高可靠的嵌入式实时系统中。它们既可以用于"裸片"开发又能运行实时操作系统，比如us/os-ll、VxWorks以及Aworks(致远电子开发)等。
 
 <div align=center>
-<img src="pic_3/pic1.jpg">
+<img src="pic/pic_3/pic1.jpg">
 </div>
 <center>图1 ARMv7下的Cortex系列</center>
 
@@ -27,7 +27,7 @@
 
 
 <div align=center>
-<img src="pic_3/pic2.jpg">
+<img src="pic/pic_3/pic2.jpg">
 </div>
 <center>图2 MMU的地位</center>
 
@@ -35,7 +35,7 @@
 
 
 <div align=center>
-<img src="pic_3/pic3.jpg">
+<img src="pic/pic_3/pic3.jpg">
 </div>
 
 <center>图3 内存管理机制</center>
@@ -52,7 +52,7 @@
 
 
 <div align=center>
-<img src="pic_3/pic4.jpg">
+<img src="pic/pic_3/pic4.jpg">
 </div>
 
 <center>图4 shell 1中的bash地址</center>
@@ -60,7 +60,7 @@
 我们打开另一个shell，查看该shell中bash进程的地址范围，如图5。不难发现，两个不同bash进程的地址范围完全相同。其实操作系统或者用户在fork()进程时完全不需要考虑物理内存的地址分配，该工作由微控制器的内存管理单元MMU来做。
 
 <div align=center>
-<img src="pic_3/pic5.jpg">
+<img src="pic/pic_3/pic5.jpg">
 </div>
 
 <center>图5 shell 2中的bash地址</center>
@@ -68,7 +68,7 @@
 既然是多进程依赖了内存管理单元，那么在使用嵌入式linux时只开一个进程可以吗?肯定是不可行的!开机后即使用户什么都不做，可见的系统运行必须的进程已经运行了几十至上百个，如图6。
 
 <div align=center>
-<img src="pic_3/pic6.jpg">
+<img src="pic/pic_3/pic6.png">
 </div>
 <center>图6 进程树</center>
 

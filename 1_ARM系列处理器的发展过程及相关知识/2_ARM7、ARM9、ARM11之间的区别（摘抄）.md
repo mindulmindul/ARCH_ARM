@@ -21,12 +21,12 @@ ARM处理器是英国Acorn有限公司设计的低功耗成本的第一款RISC�
 
 　　下面两个图：架构一目了然
 <div align=center>
-<img src="pic_2/pic1.jpg">
+<img src="pic/pic_2/pic1.jpg">
 </div>
 <center>ARM7TDMI</center>
 
 <div align=center>
-<img src="pic_2/pic2.jpg">
+<img src="pic/pic_2/pic2.jpg">
 </div>
 <center>ARM11</center>
 
