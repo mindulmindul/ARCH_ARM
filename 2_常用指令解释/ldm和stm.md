@@ -18,6 +18,7 @@
 </div>
 
 进而指令一共有8种，分别是
+
 -|存储指令 | 读取指令
 -|-|-
 1|STMIA|LDMIA
@@ -33,6 +34,7 @@
 > Full(last item in the stack is pointed)or Empty(next free space in the stack is pointed) stack.
 
 进而栈操作指令一共有8种，分别是
+
 -|存储指令 | 读取指令
 -|-|-
 1|STMFD|LDMFD
