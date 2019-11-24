@@ -84,7 +84,7 @@ HandleIRQ:
 int_return:
     ldmia   sp!,    { r0-r12,pc }^  @ 中断返回, ^表示将spsr的值复制到cpsr
 ```  
-在ldmia指令最后有一个“^”，这表示将spsr_irq放到cpsr中。
+在ldmia指令最后有一个“^”，这表示将spsr_irq的值复制到cpsr中。
 
 ### b.保存与恢复
 现在我们来看看，datacopy.s中关于数据批量复制的部分
